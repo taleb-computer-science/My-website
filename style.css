@@ -123,12 +123,13 @@ a:hover {
 }
 
 /* ===== VIDEO ===== */
-.my-video {
+.gojo-video {
     width: 600px;
     max-width: 90%;
-    border-radius: 20px;
+    height: auto;
     display: block;
     margin: 30px auto;
+    border-radius: 20px;
 }
 
 /* ===== FORM TITLE ===== */
