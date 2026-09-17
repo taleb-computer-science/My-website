@@ -123,14 +123,12 @@ a:hover {
 }
 
 /* ===== VIDEO ===== */
-video {
-  display: block;
-  width: 700px;
-  max-width: 100%;
-  margin: 35px auto;
-  border-radius: 20px;
-  border: 2px solid #fc00ff;
-  box-shadow: 0 0 35px rgba(252, 0, 255, 0.25);
+.my-video {
+    width: 600px;
+    max-width: 90%;
+    border-radius: 20px;
+    display: block;
+    margin: 30px auto;
 }
 
 /* ===== FORM TITLE ===== */
