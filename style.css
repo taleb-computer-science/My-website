@@ -1,0 +1,219 @@
+
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0b0f19;
+  color: #fff;
+  line-height: 1.6;
+  padding: 40px 20px;
+}
+
+/* ===== MAIN CONTENT ===== */
+body {
+  max-width: 950px;
+  margin: auto;
+}
+
+/* ===== HEADINGS ===== */
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 20px;
+  background: linear-gradient(90deg, #00dbde, #fc00ff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #00dbde;
+  margin-bottom: 25px;
+}
+
+h4 {
+  color: #00dbde;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* ===== PROFILE IMAGE ===== */
+img {
+  display: block;
+  width: 540px;
+  max-width: 100%;
+  margin: 25px auto;
+  border-radius: 20px;
+  border: 3px solid #00dbde;
+  box-shadow: 0 0 30px rgba(0, 219, 222, 0.3);
+  transition: 0.4s;
+}
+
+img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 45px rgba(252, 0, 255, 0.4);
+}
+
+/* ===== INTRO ===== */
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #c7c7c7;
+  margin: 25px 0;
+}
+
+/* ===== SKILLS ===== */
+ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  margin: 25px 0 40px;
+}
+
+li {
+  background: #151c2c;
+  border: 1px solid #263653;
+  padding: 12px 20px;
+  border-radius: 30px;
+  color: #00dbde;
+  transition: 0.3s;
+}
+
+li:hover {
+  transform: translateY(-5px);
+  background: #00dbde;
+  color: #0b0f19;
+}
+
+/* ===== GITHUB ===== */
+body > div {
+  background: #111827;
+  padding: 25px;
+  margin: 25px 0;
+  border-radius: 18px;
+  border: 1px solid #263653;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  background: linear-gradient(90deg, #00dbde, #fc00ff);
+  color: white;
+  padding: 10px 22px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 20px rgba(252, 0, 255, 0.5);
+}
+
+/* ===== VIDEO ===== */
+video {
+  display: block;
+  width: 700px;
+  max-width: 100%;
+  margin: 35px auto;
+  border-radius: 20px;
+  border: 2px solid #fc00ff;
+  box-shadow: 0 0 35px rgba(252, 0, 255, 0.25);
+}
+
+/* ===== FORM TITLE ===== */
+form {
+  background: #111827;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid #263653;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+form > div {
+  margin-bottom: 25px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: #cfd8e3;
+}
+
+/* ===== INPUTS ===== */
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 13px;
+  background: #0b0f19;
+  color: white;
+  border: 1px solid #34445f;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+  border-color: #00dbde;
+  box-shadow: 0 0 12px rgba(0, 219, 222, 0.25);
+}
+
+/* ===== RADIO BUTTONS ===== */
+input[type="radio"] {
+  accent-color: #fc00ff;
+  margin-right: 5px;
+}
+
+/* ===== RANGE ===== */
+input[type="range"] {
+  width: 100%;
+  accent-color: #00dbde;
+}
+
+/* ===== TEXTAREA ===== */
+textarea {
+  resize: vertical;
+}
+
+/* ===== SELECT ===== */
+select {
+  cursor: pointer;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 600px) {
+  body {
+    padding: 25px 15px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  form {
+    padding: 20px;
+  }
+}
+
